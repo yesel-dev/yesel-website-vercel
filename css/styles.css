@@ -1,0 +1,472 @@
+/* ========================================
+   Yesel - Custom Styles
+   STEM Education Website for Kenya
+   ======================================== */
+
+/* ----------------------------------------
+   CSS Variables / Theme
+   ---------------------------------------- */
+:root {
+  --primary-color: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary-color: #f59e0b;
+  --success-color: #10b981;
+  --info-color: #06b6d4;
+  --warning-color: #f59e0b;
+  --dark-color: #1e293b;
+  --light-color: #f8fafc;
+  --text-muted: #64748b;
+}
+
+/* ----------------------------------------
+   Global Styles
+   ---------------------------------------- */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--dark-color);
+  padding-top: 56px; /* For fixed navbar */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-color);
+}
+
+a {
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+/* ----------------------------------------
+   Navbar
+   ---------------------------------------- */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+
+/* ----------------------------------------
+   Hero Section
+   ---------------------------------------- */
+.hero-section {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+  min-height: 90vh;
+  padding-top: 80px;
+}
+
+.hero-illustration {
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero-illustration i {
+  opacity: 0.9;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* ----------------------------------------
+   Page Header (Inner Pages)
+   ---------------------------------------- */
+.page-header {
+  padding-top: 80px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+}
+
+/* ----------------------------------------
+   Feature Cards
+   ---------------------------------------- */
+.feature-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ----------------------------------------
+   Teaching Section Cards
+   ---------------------------------------- */
+.teach-card {
+  background: var(--light-color);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.teach-card:hover {
+  border-color: var(--primary-color);
+  background: white;
+  box-shadow: 0 10px 40px rgba(37, 99, 235, 0.1);
+}
+
+/* ----------------------------------------
+   Approach Cards
+   ---------------------------------------- */
+.approach-card {
+  background: var(--light-color);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.approach-card:hover {
+  background: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.approach-number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  opacity: 0.2;
+  line-height: 1;
+}
+
+/* ----------------------------------------
+   Program Cards
+   ---------------------------------------- */
+.program-card {
+  transition: all 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15) !important;
+}
+
+.program-card .card-header {
+  border-bottom: none;
+}
+
+/* ----------------------------------------
+   Stat Cards
+   ---------------------------------------- */
+.stat-card {
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: scale(1.05);
+}
+
+/* ----------------------------------------
+   Contact Form
+   ---------------------------------------- */
+.form-control,
+.form-select {
+  padding: 0.75rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+/* ----------------------------------------
+   Contact Info Card
+   ---------------------------------------- */
+.contact-info-card {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+}
+
+/* ----------------------------------------
+   Accordion (FAQ)
+   ---------------------------------------- */
+.accordion-button {
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+  border-color: var(--primary-color);
+}
+
+/* ----------------------------------------
+   Chatbot Styles
+   ---------------------------------------- */
+#chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+#chatbot-toggle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.4);
+  transition: all 0.3s ease;
+}
+
+#chatbot-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(37, 99, 235, 0.5);
+}
+
+#chatbot-window {
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  width: 380px;
+  max-width: calc(100vw - 40px);
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chatbot-header {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+}
+
+#chatbot-messages {
+  height: 300px;
+  overflow-y: auto;
+  background: #f8fafc;
+}
+
+.message-bubble {
+  max-width: 85%;
+  word-wrap: break-word;
+}
+
+.bot-message .message-bubble {
+  background: white;
+  border: 1px solid #e2e8f0;
+}
+
+.user-message {
+  text-align: right;
+}
+
+.user-message .message-bubble {
+  background: var(--primary-color);
+  color: white;
+  display: inline-block;
+  text-align: left;
+}
+
+.chatbot-input {
+  background: white;
+}
+
+.quick-questions .btn {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Scrollbar for chatbot */
+#chatbot-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+#chatbot-messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#chatbot-messages::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+#chatbot-messages::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* ----------------------------------------
+   Footer
+   ---------------------------------------- */
+footer {
+  background: var(--dark-color);
+}
+
+.social-links a {
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-3px);
+  color: var(--secondary-color) !important;
+}
+
+/* ----------------------------------------
+   Utility Classes
+   ---------------------------------------- */
+.bg-primary-subtle {
+  background-color: rgba(37, 99, 235, 0.1) !important;
+}
+
+.bg-success-subtle {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+}
+
+.bg-warning-subtle {
+  background-color: rgba(245, 158, 11, 0.1) !important;
+}
+
+.bg-info-subtle {
+  background-color: rgba(6, 182, 212, 0.1) !important;
+}
+
+/* ----------------------------------------
+   Responsive Adjustments
+   ---------------------------------------- */
+@media (max-width: 991.98px) {
+  .hero-section {
+    min-height: auto;
+    padding: 100px 0 60px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  #chatbot-window {
+    width: calc(100vw - 40px);
+    right: -10px;
+  }
+
+  .contact-info-card {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .display-5 {
+    font-size: 1.75rem;
+  }
+}
+
+/* ----------------------------------------
+   Animation Classes
+   ---------------------------------------- */
+.fade-in {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* ----------------------------------------
+   Print Styles
+   ---------------------------------------- */
+@media print {
+  .navbar,
+  #chatbot-container,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    padding-top: 0;
+  }
+}
