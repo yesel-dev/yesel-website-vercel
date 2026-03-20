@@ -356,6 +356,21 @@ footer {
   background: var(--dark-color);
 }
 
+footer h5,
+footer h6,
+.bg-dark h2 {
+  color: var(--primary-color);
+}
+
+.bg-dark h3:not(.stat-card h3) {
+  color: var(--primary-color);
+}
+
+.stat-card h3,
+.program-card .card-header.bg-dark h5 {
+  color: white !important;
+}
+
 .social-links a {
   font-size: 1.25rem;
   transition: all 0.3s ease;

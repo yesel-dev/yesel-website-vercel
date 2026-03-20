@@ -52,9 +52,9 @@ We also offer Holiday Camps and School Partnership programs. Would you like deta
 3️⃣ <strong>Registration</strong> - Complete the registration form and make payment
 4️⃣ <strong>Start Learning!</strong> - Join your scheduled class
 
-📞 Phone: +254 700 000 000
-📧 Email: info@yesel.co.ke
-💬 WhatsApp: +254 700 000 000
+📞 Phone: +254 112 357633
+📧 Email: info@yesel.co
+💬 WhatsApp: +254 112 357633
 
 Would you like to start the enrollment process?`,
   },
@@ -100,9 +100,9 @@ Classes are typically held once or twice a week. Contact us for the current term
     ],
     response: `Our pricing varies by program and duration. For current rates, please contact us directly:
 
-📞 Phone: +254 700 000 000
-📧 Email: info@yesel.co.ke
-💬 WhatsApp: +254 700 000 000
+📞 Phone: +254 112 357633
+📧 Email: info@yesel.co
+💬 WhatsApp: +254 112 357633
 
 We offer:
 ✅ Flexible payment plans
@@ -158,9 +158,9 @@ Any specific questions about requirements?`,
     response: `We conduct classes at various locations. 
 
 For specific venue information, please contact us:
-📞 Phone: +254 700 000 000
-📧 Email: info@yesel.co.ke
-💬 WhatsApp: +254 700 000 000
+📞 Phone: +254 112 357633
+📧 Email: info@yesel.co
+💬 WhatsApp: +254 112 357633
 
 <strong>For Schools:</strong> We can bring programs directly to your school through our School Partnership program!
 
@@ -262,8 +262,8 @@ Contact us to reserve a spot for the next holiday!`,
 • Can accommodate large groups
 
 Interested in bringing Yesel to your school? Contact us:
-📧 info@yesel.co.ke
-📞 +254 700 000 000`,
+📧 info@yesel.co
+📞 +254 112 357633`,
   },
 
   // Greeting
@@ -300,9 +300,9 @@ Just type your question!`,
 
 Is there anything else I can help you with? Feel free to ask more questions or contact us directly:
 
-📞 +254 700 000 000
-📧 info@yesel.co.ke
-💬 WhatsApp: +254 700 000 000
+📞 +254 112 357633
+📧 info@yesel.co
+💬 WhatsApp: +254 112 357633
 
 We'd love to have you join the Yesel family!`,
   },
@@ -322,9 +322,9 @@ We'd love to have you join the Yesel family!`,
     ],
     response: `You can reach us through:
 
-📞 <strong>Phone:</strong> +254 700 000 000
-📧 <strong>Email:</strong> info@yesel.co.ke
-💬 <strong>WhatsApp:</strong> +254 700 000 000
+📞 <strong>Phone:</strong> +254 112 357633
+📧 <strong>Email:</strong> info@yesel.co
+💬 <strong>WhatsApp:</strong> +254 112 357633
 
 <strong>Office Hours:</strong>
 • Monday - Friday: 8 AM - 6 PM
@@ -369,8 +369,8 @@ Here are some things I can help with:
 • <strong>Holiday camps</strong>
 
 You can also contact us directly:
-📞 +254 700 000 000
-📧 info@yesel.co.ke
+📞 +254 112 357633
+📧 info@yesel.co
 
 Try asking your question differently, or type "contact" to reach a human!`;
 
